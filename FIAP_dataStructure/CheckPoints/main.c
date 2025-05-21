@@ -5,7 +5,7 @@
 void fibonacci(){
 
     int numero;
-    printf("Digite a quantidade de termos da sequÍncia de Fibonacci (1 a 50):\n");
+    printf("Digite a quantidade de termos da sequ√™ncia de Fibonacci (1 a 50):\n");
     scanf("%d", &numero);
     unsigned long long fibArr[numero];
 
@@ -27,7 +27,7 @@ void fibonacci(){
 void fatoriais(){
 
         int quantidade;
-        printf("Digite um n˙mero inteiro (1 a 20):");
+        printf("Digite um n√∫mero inteiro (1 a 20):");
         scanf("%d", &quantidade);
         unsigned long long nFatoriais[quantidade];
 
@@ -55,9 +55,9 @@ void palindromos(){
         newPalavra[tamanho] = '\0';
 
         if(strcmp(palavra, newPalavra) == 0){
-            printf("A palavra È um palÌndromo.");
+            printf("A palavra √© um pal√≠ndromo.");
         } else {
-            printf("A palavra N√O È um palÌndromo.");
+            printf("A palavra N√ÉO √© um pal√≠ndromo.");
         }
 
 }
@@ -69,19 +69,19 @@ void subString(){
         scanf(" %s", newPalavra);
 
     if (strstr(palavra, newPalavra) != NULL) {
-        printf("A segunda string est· contida na primeira.\n");
+        printf("A segunda string est√° contida na primeira.\n");
     } else {
-        printf("A segunda string N√O est· contida na primeira.\n");
+        printf("A segunda string N√ÉO est√° contida na primeira.\n");
     }
 }
 
 int main()
 {
         int exercicio;
-        printf("===== MENU DE EXERCÕCIOS =====\n");
-        printf("1 - SequÍncia de Fibonacci;\n");
+        printf("===== MENU DE EXERC√çCIOS =====\n");
+        printf("1 - Sequ√™ncia de Fibonacci;\n");
         printf("2 - Fatoriais;\n");
-        printf("3 - Verificar PalÌndromo;\n");
+        printf("3 - Verificar Pal√≠ndromo;\n");
         printf("4 - Verificar Substring.\n");
         scanf("%d", &exercicio);
 
